@@ -10,6 +10,8 @@ NetScope stores preferences, traffic history and reports in %LOCALAPPDATA%\NetSc
 
 The installed Windows service temporarily stores pending traffic measurements locally in a protected ServiceData folder under the installation directory. The desktop app imports them into the existing history and acknowledges receipt. The service keeps up to 24 hours or 64 MB of pending measurements, whichever limit is reached first.
 
+NetScope stores publisher certificate fingerprints locally to suggest moving block rules after signed updates. Windows may contact certificate validation services during verification. Daily adapter and application byte counts are also stored locally.
+
 ## External connections and sharing
 
 • Updates. Manual and automatic checks contact GitHub Releases. GitHub and its delivery network receive ordinary request information, including your IP address. You can disable automatic updates under About.
