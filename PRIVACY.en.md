@@ -8,6 +8,8 @@ NetScope is free and requires no account. Network activity history stays on your
 
 NetScope stores preferences, traffic history and reports in %LOCALAPPDATA%\NetScope. Depending on the features you use, these can include application names and paths, byte counts, connection times, addresses and ports, host names from the DNS cache, network device identifiers and security events. Wi-Fi monitoring can use access point identifiers. IP country lookups use a database bundled with the app.
 
+The installed Windows service temporarily stores pending traffic measurements locally in a protected ServiceData folder under the installation directory. The desktop app imports them into the existing history and acknowledges receipt. The service keeps up to 24 hours or 64 MB of pending measurements, whichever limit is reached first.
+
 ## External connections and sharing
 
 • Updates. Manual and automatic checks contact GitHub Releases. GitHub and its delivery network receive ordinary request information, including your IP address. You can disable automatic updates under About.
