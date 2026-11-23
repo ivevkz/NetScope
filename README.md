@@ -11,8 +11,30 @@
 **Автор** · [ivevkz](https://github.com/ivevkz)  
 **Конфиденциальность** · [Русский](PRIVACY.md) · [English](PRIVACY.en.md)
 
+[Скриншоты английской версии](#screenshots)
+
 ## English
 
 NetScope is a free Windows network monitor with per-app traffic graphs, monthly usage reports and Windows Firewall controls. The interface is available in English and Russian. Use **Settings → General → Display language** to switch.
 
 [Download for Windows x64](https://github.com/ivevkz/NetScope/releases/latest/download/NetScope-Setup-x64.exe). Requires Windows 10 version 2004 or newer, .NET 10 Runtime x64 and Windows App Runtime 2 x64. Open **About** from the tray to check for updates or control automatic installation on exit.
+
+## Screenshots
+
+Captured in the English interface using demo traffic and application data.
+
+### Traffic monitor
+
+![Download and upload speeds over five minutes in the dark theme](screenshots/traffic.png)
+
+### Protection
+
+![Per-application incoming and outgoing firewall rules](screenshots/firewall.png)
+
+### Monthly reports
+
+![Monthly download and upload totals with a breakdown by application](screenshots/reports.png)
+
+### About
+
+![About page with the author, donation button, update controls and privacy policy](screenshots/about.png)
