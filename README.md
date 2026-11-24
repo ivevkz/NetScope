@@ -13,7 +13,7 @@
 **Автор** · [ivevkz](https://github.com/ivevkz)  
 **Конфиденциальность** · [Русский](PRIVACY.md) · [English](PRIVACY.en.md)
 
-[Скриншоты английской версии](#screenshots)
+[Скриншоты NetScope](#screenshots)
 
 ## English
 
@@ -25,7 +25,7 @@ Version 0.15.0 adds expiring block rules, confirmed block transfers for signed u
 
 ## Screenshots
 
-Captured in the English interface using demo traffic and application data.
+Screenshots from NetScope 0.17.1. The main window uses the English interface and demo traffic. The tray notification was captured in Russian during a local connection test.
 
 ### Traffic monitor
 
@@ -42,3 +42,7 @@ Captured in the English interface using demo traffic and application data.
 ### About
 
 ![About page with the author, donation button, update controls and privacy policy](screenshots/about.png)
+
+### Tray notification
+
+![First connection notification shown while NetScope is in the tray](screenshots/tray-notification.png)
